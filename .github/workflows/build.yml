@@ -43,3 +43,5 @@ jobs:
 
       - name: Publish Changes
         uses: stefanzweifel/git-auto-commit-action@v4.14.0
+        with:
+          commit_message: "[ci skip] auto commit"
